@@ -1,11 +1,10 @@
-{
+run{
   "name": "video-request",
   "version": "1.0.0",
   "description": "Simple Node.js/Express app (with EJS frontend) that integrates with Google Sheets to read/update data.",
   "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build express",
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
