@@ -4,7 +4,6 @@
   "description": "Simple Node.js/Express app (with EJS frontend) that integrates with Google Sheets to read/update data.",
   "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build express",
     "start": "nodemon index.js"
   },
   "author": "",
