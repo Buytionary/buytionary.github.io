@@ -2,7 +2,7 @@ name: CI
 ​
 on:
     push:
-        branches: [ master ]
+        branches: main
     
 jobs:
     deploy:
@@ -10,7 +10,7 @@ jobs:
     
     strategy: 
         matrix:
-            node-version: [12.x]
+            node-version: 12.x
             
     steps:
       - uses: actions/checkout@v2
